@@ -2,5 +2,15 @@
 export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss'],
   css: ['~/assets/scss/app.scss'],
-  devtools: { enabled: true }
+  devtools: { enabled: true },
+  ssr: false,
+  app: {
+    baseURL: '/',
+    buildAssetsDir: '/assets/'
+  },
+  nitro: {
+    output: {
+      publicDir: 'docs'
+    }
+  }
 })
