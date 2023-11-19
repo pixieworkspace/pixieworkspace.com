@@ -12,7 +12,7 @@
         <div class="text-5xl font-extrabold my-10">
           Technology is vital to business growth
         </div>
-        <div class="my-5">We take care of the tech, so you have need to.</div>
+        <div class="my-5">We take care of the tech, so you can focus on yours.</div>
         <div class="max-w-xs mx-auto lg:max-w-fit lg:mx-0 px-0">
           <div class="text-center uppercase mt-5 p-5 bg-slate-600 rounded-md text-white
           lg:text-left
