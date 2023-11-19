@@ -1,0 +1,9 @@
+.hero {
+    @media not all and (min-width: 1024px) {
+        background-image: url('/images/hero-team.png');
+    }
+}
+
+.hero-lg {
+    background-image: url('/images/hero-team.png');
+}
