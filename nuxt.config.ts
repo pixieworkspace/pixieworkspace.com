@@ -4,13 +4,4 @@ export default defineNuxtConfig({
   css: ['~/assets/scss/app.scss'],
   devtools: { enabled: true },
   ssr: true,
-  app: {
-    // baseURL: '/',
-    // buildAssetsDir: '/assets/'
-  },
-  nitro: {
-    // output: {
-    //   publicDir: 'docs'
-    // }
-  }
 })
