@@ -12,7 +12,6 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
-    "@nuxtjs/tailwindcss": "^6.9.5",
     "cz-conventional-changelog": "^3.3.0",
     "nuxt": "^3.8.1",
     "vue": "^3.3.8",
@@ -20,6 +19,7 @@
   },
   "dependencies": {
     "commitizen": "^4.3.0",
+    "@nuxtjs/tailwindcss": "^6.9.5",
     "sass": "^1.69.5"
   },
   "config": {
