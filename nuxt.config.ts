@@ -5,8 +5,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   ssr: false,
   app: {
-    baseURL: '/',
-    buildAssetsDir: '/assets/'
+    // baseURL: '/',
+    // buildAssetsDir: '/assets/'
   },
   nitro: {
     // output: {
