@@ -9,8 +9,8 @@ export default defineNuxtConfig({
     buildAssetsDir: '/assets/'
   },
   nitro: {
-    output: {
-      publicDir: 'docs'
-    }
+    // output: {
+    //   publicDir: 'docs'
+    // }
   }
 })
