@@ -9,8 +9,6 @@ Start the development server on `http://localhost:3000`:
 npm run dev
 ```
 
-## Build
+## Deploy
 
-```bash
-npm run generate
-```
+Production is built automatically deply using GitHub Actions. See `.github/workflows/nuxtjs.yml`
