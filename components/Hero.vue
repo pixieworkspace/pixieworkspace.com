@@ -3,7 +3,7 @@
     <div class="h-full flex flex-col justify-center hero text-white
     bg-cover
     md:items-stretch
-    lg:flex-row  lg:text-black lg:container lg:mx-auto
+    lg:flex-row  lg:text-black 2xl:container 2xl:mx-auto
     ">
 
       <div class="text-center px-3
