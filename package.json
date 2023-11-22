@@ -8,12 +8,13 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "commit": "cz"
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "cz-conventional-changelog": "^3.3.0",
-    "commitizen": "^4.3.0"
+    "commitizen": "^4.3.0",
+    "husky": "^8.0.0"
   },
   "dependencies": {
     "vue": "^3.3.8",
@@ -25,6 +26,11 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
+    },
+    "husky": {
+      "hooks": {
+        "prepare-commit-msg": "exec < /dev/tty && npx cz --hook || true"
+      }
     }
   }
 }
