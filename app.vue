@@ -1,9 +1,9 @@
 <template>
-  <div class="h-screen px">
+  <div class="h-screen px bg-slate-200">
     <div class="h-full flex flex-col justify-center hero text-white
     bg-cover
     md:items-stretch
-    lg:flex-row  lg:text-black lg:container lg:mx-auto
+    lg:h-2/3 lg:flex-row  lg:text-black lg:container lg:mx-auto
     ">
 
       <div class="text-center px-3
